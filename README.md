@@ -18,7 +18,7 @@ Options   | Action
 ```c++
 #define QNTPALAVRA 10
 ```
-And then, add more word here:
+And then, add more words here:
  ```c++
  string palavras[QNTPALAVRA] = {
         "manga", "abacaxi", "morango",
