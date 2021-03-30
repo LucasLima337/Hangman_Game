@@ -1,24 +1,24 @@
-# 🎮 Jogo da Forca
+# 🎮 Hangman Game
  
-### 🚀 Linguagem: 
+### 🚀 Language: 
 [![C++](https://img.shields.io/badge/-C++-0E0E0F?style=flat&logo=C++)](https://github.com/LucasLima337)
 ---
 
-### Menu do Jogo:
-Opções   | Ação
+### Game Menu:
+Options   | Action
 --------- | ------
-[ 1 ] | Jogar Sozinho 👦
-[ 2 ] | Jogar em Dupla 👦👩
-[ 3 ] | Sobre 📖
-[ 4 ] | Sair ❌
+[ 1 ] | Play alone 👦
+[ 2 ] | Multiplayer 👦👩
+[ 3 ] | About 📖
+[ 4 ] | Exit ❌
 ---
 
-### 🎨🖌 Personalização
-* #### Para alterar a quantidade de palavras, apenas altere o valor da seguinte linha:
+### 🎨🖌 Personalization
+* #### To change the number of words, just change the value of the following line:
 ```c++
 #define QNTPALAVRA 10
 ```
-Em seguida, adicione mais palavras aqui:
+And then, add more word here:
  ```c++
  string palavras[QNTPALAVRA] = {
         "manga", "abacaxi", "morango",
@@ -27,7 +27,7 @@ Em seguida, adicione mais palavras aqui:
         "uva passa"
  };
  ```
- * #### Para alterar a quantidade de tentativas, apenas altere o valor da seguinte linha:
+ * #### To change the number of attempts, just change the value of the following line:
  ```c++
  #define NUMTENTATIVAS 10
  ```
